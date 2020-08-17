@@ -44,7 +44,7 @@ class _homepageState extends State<homepage> {
       decoration: BoxDecoration(color: randomcolrs),
       child: FlatButton(
         onPressed: changecolor,
-        splashColor: Colors.black,
+        splashColor: Colors.red,
         child: Text(
           "change me !",
           style: TextStyle(color: Colors.white, fontSize: 30.0),
